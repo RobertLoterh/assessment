@@ -1,0 +1,13 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>You Entered:</b><br>
+  <h2><%= @numerical.number.to_words %></h2>
+</p>
+
+<br>
+<b>
+<%= link_to 'Edit', edit_numerical_path(@numerical) %> |
+<%= link_to 'Home', numericals_path %> |
+<%= link_to 'Enter New Number', new_numerical_path %>
+</b>
